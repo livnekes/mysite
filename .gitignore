@@ -9,7 +9,6 @@
 
 # Ignore the default MySQL database.
 /config/*.yml
-/db
 
 # Ignore all logfiles and tempfiles.
 /log/*.log
