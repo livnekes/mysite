@@ -39,6 +39,7 @@ group :development do
   gem 'pry-rails'
   gem 'quiet_assets'
   gem 'bullet'
+  gem 'binding_of_caller'
   gem 'zeus'
 end
 
