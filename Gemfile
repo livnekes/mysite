@@ -39,6 +39,7 @@ group :development do
   gem 'pry-rails'
   gem 'quiet_assets'
   gem 'bullet'
+  gem 'zeus'
 end
 
 # Use ActiveModel has_secure_password
