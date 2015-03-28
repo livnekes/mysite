@@ -28,7 +28,6 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 
 gem 'annotate'
-gem 'debugger'
 gem 'meta_request','0.2.1'
 gem 'flay'
 
@@ -41,16 +40,14 @@ group :development do
   gem 'bullet'
   gem 'binding_of_caller'
   gem 'zeus'
+  gem 'byebug'
 end
 
 # Use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'bcrypt-ruby', '~> 3.0.0'
 
 # Use unicorn as the app server
 gem 'unicorn'
 
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
-
-# Use debugger
-# gem 'debugger', group: [:development, :test]
